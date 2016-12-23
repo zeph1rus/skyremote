@@ -1,0 +1,21 @@
+#define INVERT_TOGGLE 0x100000
+//flips bit 4
+#define SKYPLUS_UP 0xC00C58
+#define SKYPLUS_DN 0xC00C59
+#define SKYPLUS_L 0xC00C5A
+#define SKYPLUS_R 0xC00C5B
+#define SKYPLUS_GUIDE 0xC00CCC
+#define SKYPLUS_BACKUP 0xC00C83
+#define SKYPLUS_CHUP 0xC00C20
+#define SKYPLUS_CHDN 0xC00C21
+#define SKYPLUS_SELECT 0xC00C5C
+#define PIN_UP 10
+#define PIN_DN 11
+#define PIN_L 13
+#define PIN_R 12
+#define PIN_GUIDE 5
+#define PIN_SELECT 6
+#define PIN_BACKUP 4
+#define PIN_CHUP 3
+#define PIN_CHDN 2
+
