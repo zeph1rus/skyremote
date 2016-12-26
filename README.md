@@ -24,17 +24,16 @@ TinyCad: ![Alt](/Wiring/sky_remote_crop.jpg "TinyCAD wiring diagram")
 
 ##Credits
 
-### I used the fantasic IRremote library for Arduino, without which this would not have been possible. [link](https://github.com/z3t0/A\
-rduino-IRremote)
-### hexreader at the Edaboard forums for this post detailing reverse engineering of the Sky Plus remove codes: [link](http://www.edaboard.com/thread299046.html#post1279512)
-### The SB-Projects detailing of the RC6 Protocol [link](http://www.sbprojects.com/knowledge/ir/rc6.php)
+### I used the fantasic IRremote library for Arduino, without which this would not have been possible. [Arduino IRremote](https://github.com/z3t0/Arduino-IRremote)
+### hexreader at the Edaboard forums for this post detailing reverse engineering of the Sky Plus remove codes: [Edaboards](http://www.edaboard.com/thread299046.html#post1279512)
+### The SB-Projects detailing of the RC6 Protocol [RC6](http://www.sbprojects.com/knowledge/ir/rc6.php)
 
 ##Appendix:
 
 I have detailed the remote codes from the post linked above here in case this goes down. I've only implemented the ones I require in the header file, however it will be simple to add/remove as you need. 
 
-'
-Sky+ commander buttons - cover closed
+
+```Sky+ commander buttons - cover closed
 00c00-00c09    0 to 9
 00c0c	       	 on/off
 00c20			ch+
@@ -62,6 +61,5 @@ Sky+ commander buttons - cover closed
 00c83																    backup
 00ccb																     i
 00ccc																      tv guide
-00cf5																      	 interactive
-'
+00cf5																      	 interactive```
  
